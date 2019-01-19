@@ -1,0 +1,39 @@
+html, body{
+	height: 100%;
+	background-color: #F5F5F5; 	
+}
+
+
+#sec1{
+	background-image: url("../img/img1.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;		
+}
+.nav-link:hover{
+	border-bottom: 2px white solid;
+}
+h2{
+	text-align: center;
+	color: #FFD54F;
+	margin: 3em 0;
+	font-weight: bold;
+}
+form{
+	margin: 3em 0;
+}
+.nom{
+	height: 20px;
+	position: relative;
+	margin-top:-28px;
+	background-color: #FFD54F;
+	border-top-right-radius: 200px 20px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+}
+.nom:hover{
+	height: 80px;
+	line-height: 80px;
+	margin-top:-88px;	
+	border-top-right-radius: 200px 80px;
